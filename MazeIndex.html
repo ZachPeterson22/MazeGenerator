@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="MazeStyles.css">
+    </head>
+    <body>
+        <canvas id="Maze" width="300" height="300"></canvas>
+        <element onkeydown="moveUp()">
+        <element onkeydown="moveDown()">
+        <element onkeydown="moveLeft()">
+        <element onkeydown="moveRight()">
+        <div id="timer"></div>
+        <script src="MazeScript.js"></script>
+        <button id="BotStart" type="button" onclick="BotGame()">BotGame</button>
+        <button id="PlayerStart" type="button" onclick="PlayerGame()">PlayerGame</button>
+    </body>
+</html>
